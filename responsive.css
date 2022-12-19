@@ -1,0 +1,105 @@
+/***** Responsive *****/
+/* Mobile */ 
+@media screen and (max-width:320px) {
+    /* Header */
+    #header {
+        height: 260px;
+    }
+    .navbar {
+        top: 0;
+        position: absolute;
+        display: flex;
+        margin-left: 12px;
+    }
+    .navbar #navbar-logo {
+        font-weight: 800;
+        font-size: 18px;
+        height: 45px;
+        line-height: 45px;
+    }
+    #navbar-block .navbar .popup-side .menu-icon {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 12px;
+        height: 45px;
+        align-items: center;
+        font-weight: 50px;
+        visibility: initial;
+    }
+    /* hidden navbar-list */
+    .navbar .navbar-list {
+        visibility: hidden;
+    }
+    /* hidden login-block */
+    #navbar-block .navbar #login-block {
+        visibility: hidden;
+    }
+    /* set posititon header-center */
+    .header-center {
+        top: 50px;
+        left: 3.75%;
+    }
+    .header-center #title {
+        font-weight: 600;
+        color: #FFF;
+        font-size: 18px;
+        height: 24.6px;
+        line-height: 24.6px;
+    }
+    .header-center #content {
+        font-weight: 400;
+        color: #FFF;
+        font-size: 12px;
+        width: 100%;
+        height: 80px;
+    }
+    /**
+    Header-image */
+    .header-image {
+        position: absolute;
+        right: 0;
+        top: 55%;
+        z-index: 1;
+        width: 30%;
+        height: 30%;
+    }
+    /** Center-btn */
+    
+    #center-btn .item-btn-1,
+    #center-btn .item-btn-2 {
+        font-size: 12px;
+        width: 110px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    #center-btn .item-btn-2 {
+        margin-left: 12px;
+    }
+    /* General CSS for title & content*/
+    .main-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .main-content {
+        color: #969696;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 2;
+    }
+    /*** Slider ***/
+    #top-title .wrap-main-title {
+        position: absolute;
+        top: 5%;
+        width: 80%;
+        text-align: center;
+    }
+    .slider {
+        padding-top: 0px;
+        text-align: center;
+    }
+}
